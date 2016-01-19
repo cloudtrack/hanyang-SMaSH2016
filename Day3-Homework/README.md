@@ -1,6 +1,6 @@
 ### Day 3 과제 진행 방법
 
-1. https://github.com/cloudtrack/hanyang-erica-class 을 fork 합니다.
+1. https://github.com/cloudtrack/hanyang-SMaSH2016 을 fork 합니다.
 2. 자신의 개발 브랜치를 생성합니다. (git checkout mybranch)
 3. Day3-Homework 내에 자신의 디렉토리를 생성합니다. 예) Day3-Homework/channy 
 4. 자신이 직접 만든 개인 홈페이지를 작업하고, Commit 및 Push합니다. 
