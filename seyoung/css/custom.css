@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.custom-button:hover, .custom-button a:hover {
+  color: blue !important;
+	transition: 0.3s;
+}
+
+h1 {
+  font-family: "cursive";
+}
+
+.bgimg {
+  background-attachment: fixed !important;
+}
+
+.subtitle-gray {
+  background: rgba(0,0,0,0.3);
+}
+
+.vivid {
+  opacity: 1;
+}
+
+.nav-blue {
+  background: rgba(77,172,255,0.3);
+}
+
+.main {
+  background-color: #f0f8ff;
+}
+
+.supportimg {
+	margin: 50px auto;
+	width: 640px;
+}
+
+.thumb {
+	border-radius: 100%;
+	width: 230px;
+	display: inline-block;
+}
+
+.thumbnail {
+	width: 230px;
+	height: 280px;
+	text-align: center;
+	background: rgba(0,0,0,0);
+	display: inline-block;
+	border-color: aliceblue;
+}
+
+.trans {
+	transition: 0.3s !important;
+}
+p, h1, h2, a {
+	font-family: '나눔고딕', 'Nanum Gothic', sans-serif;
+
+}
