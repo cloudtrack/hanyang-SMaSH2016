@@ -1,0 +1,10 @@
+#sola img, #moon img, #wheein img, #whasa img{
+	float:left;
+	margin: 0px 20px;
+}
+
+#sola, #moon, #wheein, #whasa{
+	width:700px;
+	height:400px;
+}
+
