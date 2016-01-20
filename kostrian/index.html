@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- jQuery -->
+	<script src="http://code.jquery.com/jquery-2.2.0.min.js" type="text/JavaScript"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- My Files -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<title>Kostrian's Pages</title>
+</head>
+<body>
+	<header>
+		<h1>Kostrian's Pages</h1>
+		
+	</header>
+	<div id="container">
+		<div id="menu">
+			<ul class="nav nav-tabs">
+				<li role="presentation"><a href="aboutme.html">About me</a></li>
+				<li role="presentation"><a href="favorite.html">Favorite?</a></li>
+				<li role="presentation"><a href="#donate">Donate</a></li>
+			</ul>
+		</div>
+
+		<section>
+			<article id="aboutme">
+				<h2 class="article_title">About Me</h2>
+				<div class="article_item">
+					<h3 class="subject">Name</h3>
+					<p class="content">Kim Minyeong</p>
+				</div>
+				<div class="article_item">
+					<h3 class="subject">Nick Name</h3>
+					<p class="content">Kostrian</p>
+				</div>
+				<div class="article_item">
+					<h3 class="subject">Major</h3>
+					<p class="content">Computer Science &amp; Engineering</p>
+				</div>
+			</article>
+			<article id="favorite"><h2 class="article_title">Favorite</h2>
+				<div class="article_item">
+					<h3 class="subject">Car</h3>
+					<p class="content">디자인이 멋있는 차는 다 좋아한다.</p>
+				</div>
+				<div class="article_item">
+					<h3 class="subject">Computer</h3>
+					<p class="content">코딩을 비롯한 여러 가지를 좋아함</p>
+				</div>
+				<div class="article_item">
+					<h3 class="subject">Guitar</h3>
+					<p class="content">잘치진 못하지만 치는건 좋아함</p>
+				</div>
+			</article>
+			<article id="donate">
+				<h2 class="article_title">Donate</h2>
+				<div class="article_item">
+					<h3 class="subject">Wanna Donate?</h3>
+					<p class="content" id="paypal"><img src="imgs/paypal_logo.jpg" width="200px"></p>
+				</div>
+			</article>
+		</section>
+	</div>
+	<div id="showside">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+			Menu
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="#aboutme">AboutMe</a></li>
+			<li><a href="#favorite">Favorite</a></li>
+			<li><a href="#donate">Donate</a></li>
+		</ul>
+	</div>
+</body>
+</html>
