@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body {
+	font-family: "Jeju Gothic";
+	margin: 0;
+	padding: 0;
+	background-image: url('../imgs/background.jpg');
+	background-repeat: no-repeat;
+}
+	body:after {
+		width: 60%;
+		height: 100%;
+		
+	}
+
+header {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	float: left;
+}
+	header > h1 {
+		width: 60%;
+		margin: auto;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 2.5%;
+		color: white;
+	}
+	header a {
+		text-decoration: none;
+		color: white;
+	}
+	header a:hover {
+		text-decoration: none;
+		color: #AAAAAA;
+	}
+
+#container {
+	background-color: rgba(0, 0, 0, 0.8);	
+	width: 60%;
+	height: 100%;
+	margin: auto;
+}
+	#menu > ul {
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		color: white;
+	}
+	section {
+		margin: auto;
+		width: 100%;
+		color: #EEEEEE;
+	}
+		article {
+			text-align: center;
+			margin-bottom: 10%;
+		}
+			.article_title {
+				font-family: 'Jeju Gothic';
+				font-weight: bold;
+			}
+				.article_item {
+					display: inline-block;
+					margin: 0 auto;
+					padding: 0 5%;
+					width: 45%;
+				}
+				#paypal:hover {
+					cursor: pointer;
+				}
+#showside {
+	color: white;
+	position: fixed;
+	top: 40%;
+	right: 5%;
+}
