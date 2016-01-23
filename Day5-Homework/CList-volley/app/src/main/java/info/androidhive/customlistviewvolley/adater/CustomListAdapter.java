@@ -2,6 +2,7 @@ package info.androidhive.customlistviewvolley.adater;
 
 import info.androidhive.customlistviewvolley.R;
 import info.androidhive.customlistviewvolley.app.AppController;
+import info.androidhive.customlistviewvolley.model.Book;
 import info.androidhive.customlistviewvolley.model.Movie;
 
 import java.util.List;
@@ -20,22 +21,22 @@ import com.android.volley.toolbox.NetworkImageView;
 public class CustomListAdapter extends BaseAdapter {
 	private Activity activity;
 	private LayoutInflater inflater;
-	private List<Movie> movieItems;
+	private List<Book> bookItems;
 	ImageLoader imageLoader = AppController.getInstance().getImageLoader();
 
-	public CustomListAdapter(Activity activity, List<Movie> movieItems) {
+	public CustomListAdapter(Activity activity, List<Book> movieItems) {
 		this.activity = activity;
-		this.movieItems = movieItems;
+		this.bookItems = movieItems;
 	}
 
 	@Override
 	public int getCount() {
-		return movieItems.size();
+		return bookItems.size();
 	}
 
 	@Override
 	public Object getItem(int location) {
-		return movieItems.get(location);
+		return bookItems.get(location);
 	}
 
 	@Override
@@ -62,28 +63,23 @@ public class CustomListAdapter extends BaseAdapter {
 		TextView year = (TextView) convertView.findViewById(R.id.releaseYear);
 
 		// getting movie data for the row
-		Movie m = movieItems.get(position);
+		Book m = bookItems.get(position);
 
 		// thumbnail image
-		thumbNail.setImageUrl(m.getThumbnailUrl(), imageLoader);
+		thumbNail.setImageUrl(m.getThumnail(), imageLoader);
 
 		// title
 		title.setText(m.getTitle());
 
 		// rating
-		rating.setText("Rating: " + String.valueOf(m.getRating()));
+		rating.setText(m.getAuthor() + "\n" + m.getPrice() +"원");
 
 		// genre
-		String genreStr = "";
-		for (String str : m.getGenre()) {
-			genreStr += str + ", ";
-		}
-		genreStr = genreStr.length() > 0 ? genreStr.substring(0,
-				genreStr.length() - 2) : genreStr;
-		genre.setText(genreStr);
+
+		genre.setText(m.getCategory());
 
 		// release year
-		year.setText(String.valueOf(m.getYear()));
+		year.setText(String.valueOf(m.getDate()));
 
 		return convertView;
 	}
