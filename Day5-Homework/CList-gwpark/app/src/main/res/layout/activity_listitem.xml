@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.androidhive.customlistviewvolley.Listitem">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/itemthumbnail"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/itemtitle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemthumbnail"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/itemgenre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemtitle"
+        android:textSize="13dip"/>
+
+    <TextView
+        android:id="@+id/itemreleaseYear"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemgenre"
+        android:textColor="@color/year"
+        android:textSize="@dimen/year"/>
+
+</RelativeLayout>
