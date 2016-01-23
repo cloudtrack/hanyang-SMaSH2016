@@ -7,12 +7,14 @@ import info.androidhive.customlistviewvolley.model.Movie;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -88,7 +90,21 @@ public class MainActivity extends Activity {
 			}
 		});
 
+		listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				Book data = adapter.bookItems.get(position);
+				Toast toast = Toast.makeText(getApplicationContext(), data.getTitle(), Toast.LENGTH_LONG);
+				toast.show();
+				Intent intent = new Intent(getApplicationContext(), Dialog.class);
+				intent.putExtra("title", data.getTitle());
+				intent.putExtra("thumnail", data.getThumnail());
 
+				startActivity(intent);
+
+
+			}
+		});
 	}
 
 	public void makeJson(){

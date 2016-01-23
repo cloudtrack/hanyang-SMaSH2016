@@ -21,7 +21,7 @@ import com.android.volley.toolbox.NetworkImageView;
 public class CustomListAdapter extends BaseAdapter {
 	private Activity activity;
 	private LayoutInflater inflater;
-	private List<Book> bookItems;
+	public List<Book> bookItems;
 	ImageLoader imageLoader = AppController.getInstance().getImageLoader();
 
 	public CustomListAdapter(Activity activity, List<Book> movieItems) {
@@ -80,6 +80,9 @@ public class CustomListAdapter extends BaseAdapter {
 
 		// release year
 		year.setText(String.valueOf(m.getDate()));
+
+
+
 
 		return convertView;
 	}
