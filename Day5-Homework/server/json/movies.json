@@ -1,105 +1,71 @@
 [{
-        "title": "Dawn of the Planet of the Apes",
-        "image": "http://okdevtv.com/samples/json/movies/1.jpg",
-        "rating": 8.3,
-        "releaseYear": 2014,
-        "genre": ["Action", "Drama", "Sci-Fi"]
-    },
-    {
-        "title": "District 9",
-        "image": "http://okdevtv.com/samples/json/movies/2.jpg",
-        "rating": 8,
+        "title": "League of Legends",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/1.jpg",
+        "rating": 1,
         "releaseYear": 2009,
-        "genre": ["Action", "Sci-Fi", "Thriller"]
+        "genre": ["Multiplayer online battle arena"]
     },
     {
-        "title": "Transformers: Age of Extinction",
-        "image": "http://okdevtv.com/samples/json/movies/3.jpg",
-        "rating": 6.3,
+        "title": "Counter-Strike: Global Offensive",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/2.jpg",
+        "rating": 2,
+        "releaseYear": 2012,
+        "genre": ["First-person shooter"]
+    },
+    {
+        "title": "Minecraft",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/3.jpg",
+        "rating": 3,
+        "releaseYear": 2011,
+        "genre": ["Sandbox, survival"]
+    },
+    {
+        "title": "Hearthstone: Heroes of Warcraft",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/4.jpg",
+        "rating": 4,
         "releaseYear": 2014,
-        "genre": ["Action", "Adventure", "Sci-Fi"]
+        "genre": ["Collectible card game"]
     },
     {
-        "title": "X-Men: Days of Future Past",
-        "image": "http://okdevtv.com/samples/json/movies/4.jpg",
-        "rating": 8.4,
-        "releaseYear": 2014,
-        "genre": ["Action", "Sci-Fi", "Thriller"]
+        "title": "World Of Tanks",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/5.jpg",
+        "rating": 5,
+        "releaseYear": 2010,
+        "genre": ["Action, MMO"]
     },
     {
-        "title": "The Machinist",
-        "image": "http://okdevtv.com/samples/json/movies/5.jpg",
-        "rating": 7.8,
+        "title": "World of Warcraft",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/6.jpg",
+        "rating": 6,
         "releaseYear": 2004,
-        "genre": ["Drama", "Thriller"]
+        "genre": ["Massively multiplayer online role-playing"]
     },
     {
-        "title": "The Last Samurai",
-        "image": "http://okdevtv.com/samples/json/movies/6.jpg",
-        "rating": 7.7,
-        "releaseYear": 2003,
-        "genre": ["Action", "Drama", "History"]
+        "title": "Grand Theft Auto: San Andreas Multiplayer",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/7.jpg",
+        "rating": 7,
+        "releaseYear": 2004,
+        "genre": ["Third-person shooter, action-adventure"]
     },
     {
-        "title": "The Amazing Spider-Man 2",
-        "image": "http://okdevtv.com/samples/json/movies/7.jpg",
-        "rating": 7.3,
-        "releaseYear": 2014,
-        "genre": ["Action", "Adventure", "Fantasy"]
-    },
-    {
-        "title": "Tangled",
-        "image": "http://okdevtv.com/samples/json/movies/8.jpg",
-        "rating": 7.9,
+        "title": "Guild Wars 2",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/8.jpg",
+        "rating": 8,
         "releaseYear": 2010,
-        "genre": ["Action", "Drama", "Sci-Fi"]
+        "genre": ["MMORPG"]
     },
     {
-        "title": "Rush",
-        "image": "http://okdevtv.com/samples/json/movies/9.jpg",
-        "rating": 8.3,
+        "title": "Dota 2",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/9.jpg",
+        "rating": 9,
         "releaseYear": 2013,
-        "genre": ["Animation", "Comedy", "Family"]
+        "genre": ["Multiplayer online battle arena"]
     },
     {
-        "title": "Drag Me to Hell",
-        "image": "http://okdevtv.com/samples/json/movies/10.jpg",
-        "rating": 6.7,
-        "releaseYear": 2009,
-        "genre": ["Horror", "Thriller"]
-    },
-    {
-        "title": "Despicable Me 2",
-        "image": "http://okdevtv.com/samples/json/movies/11.jpg",
-        "rating": 7.6,
+        "title": "ARMA 3",
+        "image": "http://ec2-52-79-85-184.ap-northeast-2.compute.amazonaws.com/androidJson/movies/10.jpg",
+        "rating": 10,
         "releaseYear": 2013,
-        "genre": ["Animation", "Comedy", "Family"]
-    },
-    {
-        "title": "Kill Bill: Vol. 1",
-        "image": "http://okdevtv.com/samples/json/movies/12.jpg",
-        "rating": 8.2,
-        "releaseYear": 2003,
-        "genre": ["Action", "Crime"]
-    },
-    {
-        "title": "A Bug's Life",
-        "image": "http://okdevtv.com/samples/json/movies/13.jpg",
-        "rating": 7.2,
-        "releaseYear": 1998,
-        "genre": ["Animation", "Adventure", "Comedy"]
-    },
-    {
-        "title": "Life of Brian",
-        "image": "http://okdevtv.com/samples/json/movies/14.jpg",
-        "rating": 8.9,
-        "releaseYear": 1972,
-        "genre": ["Comedy"]
-    },
-    {
-        "title": "How to Train Your Dragon",
-        "image": "http://okdevtv.com/samples/json/movies/15.jpg",
-        "rating": 8.2,
-        "releaseYear": 2010,
-        "genre": ["Animation", "Adventure", "Family"]
-    }]
+        "genre": ["Tactical shooter"]
+    }
+]
