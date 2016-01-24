@@ -1,0 +1,244 @@
+[{
+"name": "Nami",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Nami.png",
+"pickRate": "3.1%",
+"winRate": "50.64%",
+"isCC": ["Knock-up", "Suspension", "Slow"],
+"isHeal": ["Heal"],
+"part": "Dedicated"
+},
+{
+"name": "Nautilus",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Nautilus.png",
+"pickRate": "3.65%",
+"winRate": "53.63%",
+"isCC": ["Pull", "Knock-up", "Root", "Stun", "Slow"],
+"isHeal": ["No"],
+"part": "Tanker"
+},
+{
+"name": "Lux",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Lux.png",
+"pickRate": "2.55%",
+"winRate": "48.22%",
+"isCC": ["Root", "Slow"],
+"isHeal": ["Shield"],
+"part": "Checker"
+},
+{
+"name": "Leona",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Leona.png",
+"pickRate": "6.76%",
+"winRate": "51.57%",
+"isCC": ["Root", "Slow", "Stun"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Lulu",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Lulu.png",
+"pickRate": "5.43%",
+"winRate": "48.49%",
+"isCC": ["Knock-up", "Polymorph", "Slow"],
+"isHeal": ["Shield", "Heal"],
+"part": "Checker"
+},
+{
+"name": "Malphite",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Malphite.png",
+"pickRate": "2.47%",
+"winRate": "50.06%",
+"isCC": ["Knock-up", "Slow"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Morgana",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Morgana.png",
+"pickRate": "7.38%",
+"winRate": "49.57%",
+"isCC": ["Root", "Slow", "Stun"],
+"isHeal": ["Shield"],
+"part": "Dedicated"
+},
+{
+"name": "Bard",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Bard.png",
+"pickRate": "10.49%",
+"winRate": "48.2%",
+"isCC": ["Stasis", "Slow"],
+"isHeal": ["Heal"],
+"part": "Checker"
+},
+{
+"name": "Vel’Koz",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Velkoz.png",
+"pickRate": "3%",
+"winRate": "48.4%",
+"isCC": ["Suspension", "Slow"],
+"isHeal": ["No"],
+"part": "Checker"
+},
+{
+"name": "Braum",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Braum.png",
+"pickRate": "6.88%",
+"winRate": "50.75%",
+"isCC": ["Knock-up", "Slow"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Brand",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Brand.png",
+"pickRate": "2.56%",
+"winRate": "50.24%",
+"isCC": ["Stun"],
+"isHeal": ["No"],
+"part": "Checker"
+},
+{
+"name": "Blitzcrank",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Blitzcrank.png",
+"pickRate": "25.7%",
+"winRate": "52.68%",
+"isCC": ["Knock-up", "Pull", "Silence", "Stun"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Poppy",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Poppy.png",
+"pickRate": "2.18%",
+"winRate": "49.89%",
+"isCC": ["Knock-back", "Stun"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Sona",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Sona.gif",
+"pickRate": "3.07%",
+"winRate": "51.46%",
+"isCC": ["Slow", "Stun"],
+"isHeal": ["Heal"],
+"part": "Checker"
+},
+{
+"name": "Soraka",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Soraka.png",
+"pickRate": "11.01%",
+"winRate": "52.2%",
+"isCC": ["Slow", "Silence", "Root"],
+"isHeal": ["Heal"],
+"part": "Dedicated"
+},
+{
+"name": "Shen",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Shen.png",
+"pickRate": "4.42%",
+"winRate": "48.09%",
+"isCC": ["Taunt", "Root"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Thresh",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Thresh.png",
+"pickRate": "34.59%",
+"winRate": "48.94%",
+"isCC": ["Knock-back", "Pull", "Slow", "Stun"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Alistar",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Alistar.png",
+"pickRate": "23.51%",
+"winRate": "51.32%",
+"isCC": ["knock-back", "Knock-up", "Stun"],
+"isHeal": ["Heal"],
+"part": "Tanker"
+},
+{
+"name": "Annie",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Annie.png",
+"pickRate": "2.07%",
+"winRate": "47.24%",
+"isCC": ["Stun"],
+"isHeal": ["Shield"],
+"part": "Checker"
+},
+{
+"name": "Zyra",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Zyra.png",
+"pickRate": "1.5%",
+"winRate": "51.58%",
+"isCC": ["Knock-up", "Root", "Slow"],
+"isHeal": ["No"],
+"part": "Checker"
+},
+{
+"name": "Janna",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Janna.png",
+"pickRate": "6.94%",
+"winRate": "53.49%",
+"isCC": ["Knock-back", "Knock-up", "Slow"],
+"isHeal": ["Heal", "Shield"],
+"part": "Dedicated"
+},
+{
+"name": "Zilean",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Zilean.png",
+"pickRate": "2.44%",
+"winRate": "51.75%",
+"isCC": ["Slow", "Stun"],
+"isHeal": ["revival"],
+"part": "Checker"
+},
+{
+"name": "Karma",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Karma.png",
+"pickRate": "1.56%",
+"winRate": "49.62%",
+"isCC": ["Root", "Slow"],
+"isHeal": ["Heal", "Shield"],
+"part": "Checker"
+},
+{
+"name": "Kennen",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Kennen.png",
+"pickRate": "0.69%",
+"winRate": "43.22%",
+"isCC": ["Stun"],
+"isHeal": ["No"],
+"part": "Checker"
+},
+{
+"name": "Taric",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Taric.png",
+"pickRate": "0.76%",
+"winRate": "50.31%",
+"isCC": ["Stun"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Tahm’Kench",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/TahmKench.png",
+"pickRate": "5.09%",
+"winRate": "49.67%",
+"isCC": ["Stasis", "Slow", "Stun", "Suppression"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+},
+{
+"name": "Trundle",
+"image": "https://s3.ap-northeast-2.amazonaws.com/supporter.app/champs/Trundle.png",
+"pickRate": "4.93%",
+"winRate": "50.41%",
+"isCC": ["Slow"],
+"isHeal": ["Shield"],
+"part": "Tanker"
+}]
+ 
