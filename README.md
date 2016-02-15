@@ -13,9 +13,9 @@ This class aims for students to learn field technology in software developmenet 
 * Teacher: Channy Yun 
 
 ### Schedule 
-* Day2: Linux 101 and AWS Cloud Architecture 
-* Day3: Front-end Web technology with AWS
-* Day7: Android with AWS Mobilehub
+* Day2: [Linux 101 and AWS Cloud Architecture](http://awsblogskr.s3-ap-northeast-2.amazonaws.com/day2-cloud-architecure-aws.pdf)
+* Day3: [Front-end Web technology with AWS](http://awsblogskr.s3-ap-northeast-2.amazonaws.com/day3-html-css-bootstrap.pdf)
+* Day7: [Android with AWS Mobilehub](http://awsblogskr.s3-ap-northeast-2.amazonaws.com/day7-mobile-app-aws.pdf)
 
 ### URL
 * https://trello.com/b/VBjJHY4T/smash-hackathon-2015
